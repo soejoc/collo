@@ -5,8 +5,8 @@ import lombok.Value;
 import lombok.experimental.NonFinal;
 
 /**
- * This io.jochimsen.cahframework.protocol object shall never be changed because it is used to signal errors to the communication partner.
- * It'players defined to be compatible across all io.jochimsen.cahframework.protocol versions.
+ * This io.jochimsen.cahprotocol.protocol object shall never be changed because it is used to signal errors to the communication partner.
+ * It'players defined to be compatible across all io.jochimsen.cahprotocol.protocol versions.
  */
 @Value
 @NonFinal

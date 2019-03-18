@@ -5,7 +5,7 @@ import io.jochimsen.collo.misc.error.ErrorMessageException;
 
 public class InvalidProtocolVersionException extends ErrorMessageException {
     public InvalidProtocolVersionException(final int version, final int currentVersion) {
-        super(String.format("Invalid io.jochimsen.cahframework.protocol version found! Expected version %d but found version %d", currentVersion, version));
+        super(String.format("Invalid io.jochimsen.cahprotocol.protocol version found! Expected version %d but found version %d", currentVersion, version));
     }
 
     @Override
